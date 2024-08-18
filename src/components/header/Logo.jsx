@@ -3,10 +3,11 @@ import logo from "../../assets/edventure.jpg"
 function Logo() {
   return (
     <>
+    
       <div className="w-[175px] h-[48px]   ">
         <img src={logo} alt="" />
       </div>
-      <div className="hidden md:hidden lg:hidden sm:flex justify-end ">
+      <div className="hidden md:hidden lg:hidden sm:block  ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="100"
@@ -23,6 +24,7 @@ function Logo() {
           ></path>
         </svg>
       </div>
+     
     </>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../Button/Button'
 import Link from '../links/Link'
 import Register from '../Register/Register';
 
@@ -7,7 +6,8 @@ function NavBar() {
   return (
     <>
       <div className=" ">
-        <ul className="  gap-7  md:w-full  hidden md:flex ">
+        <ul className="flex items-center gap-7">
+            <div className="gap-7  md:w-full  hidden md:flex">
           <li className="hover:font-semibold ">
             <Link href={``}>AboutUs</Link>
           </li>
@@ -20,9 +20,10 @@ function NavBar() {
           <li className="hover:font-semibold">
             <Link href={``}>ContactUs</Link>
           </li>
-          <li>
+          </div>
+          <div className='hidden md:flex'> 
             <Register/>
-          </li>
+          </div>
         </ul>
       </div>
     </>
