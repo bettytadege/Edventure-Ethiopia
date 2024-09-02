@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .shadowscholar{
+        box-shadow: 13px 21px 51px rgba(0,0,0,.2);
+    }
+}

@@ -4,6 +4,8 @@ import NavBar from '../../components/header/NavBar'
 import IgniteText from '../../components/Ignite-texts/IgniteText'
 import Boy from '../../components/Banner/Boy'
 import EdvantureDetails from '../../components/Details/EdvantureDetails'
+import OurServices from '../../components/our-services/OurServices'
+import Scholarship from '../../components/our-scholar/Scholarship'
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
           <Boy/>
         </div>
         <EdvantureDetails/>
+        <OurServices/>
+        <Scholarship/>
     </div>
     </>
   )
